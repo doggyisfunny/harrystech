@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<title>HarrysTech Download</title>
 <script>
 function downloadAndRedirect() {
   const link = document.createElement('a');
-  link.href = 'greece.png';  // Change this to your actual file name
+  link.href = 'greece.png';
   link.download = 'greece.png';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
 
-  window.location.href = 'https://www.tiktok.com/@harrystech_'; // Change if you want a different redirect
+  window.location.href = 'https://www.tiktok.com/@harrystech_';
 }
 </script>
-</head>
-<body>
-<h1>HarrysTech Download Page</h1>
-<button onclick="downloadAndRedirect()">Download File</button>
-</body>
-</html>
